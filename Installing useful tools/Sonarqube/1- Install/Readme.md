@@ -94,7 +94,21 @@ docker-compose -f nginx.yaml up -d
 
 ```
 
+Exec to postgres container
+``` bash
+# exec
+docker exec -it container_id bash
 
+# psql
+psql -U username -d database_name
+psql -U sonar -d sonarqubedb -p
+\l
+\dt
+
+
+
+
+```
 
 
 
