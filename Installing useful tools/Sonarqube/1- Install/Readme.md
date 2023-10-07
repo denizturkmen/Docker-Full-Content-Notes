@@ -81,7 +81,18 @@ ulimit -u
 ```
 
 
+Reserve proxy using nginx
+``` bash
+# create directory
+sudo mkdir -p nginx
 
+# vim default.conf
+sudo vim default.conf
+
+# started nginx 
+docker-compose -f nginx.yaml up -d 
+
+```
 
 
 
