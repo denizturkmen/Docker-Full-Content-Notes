@@ -38,6 +38,9 @@ dotnet restore
 # run
 dotnet run
 
+# export
+export PATH="$PATH:$HOME/.dotnet/tools"
+
 ```
 
 Main branch analysis with sonar scanner on net core
@@ -55,3 +58,5 @@ dotnet build
 dotnet sonarscanner end /d:sonar.login="sqp_3ca24132482e425b329ba08681ad5ca518ba2721"
 
 ```
+
+Note: java11 must install on scanner machine
