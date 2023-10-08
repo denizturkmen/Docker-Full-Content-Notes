@@ -107,15 +107,6 @@ psql -U sonar -d sonarqubedb -p
 
 ```
 
-Integration to gitlab
-``` bash
-
-
-
-```
-
-
-
 
 
 # Referance
