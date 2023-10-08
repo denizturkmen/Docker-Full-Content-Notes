@@ -37,11 +37,11 @@ docker ps
 Installing sonarqube as docker in Ubuntu
 ``` bash
 # install
-docker-compose -f sonarqube.yaml up -d 
+docker-compose -f sonarqube-ce.yaml up -d 
 
 # Cheching
 docker ps 
-docker-compose -f sonarqube.yaml ps
+docker-compose -f sonarqube-ce.yaml ps
 
 # looking log
 docker logs -f container_id
