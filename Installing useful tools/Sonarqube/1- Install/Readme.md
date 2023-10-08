@@ -6,7 +6,7 @@ Installing docker on ubuntu with script
 ``` bash
 # Install
 sudo su -
-curl https://raw.githubusercontent.com/denizturkmen/Docker-Full-Content-Notes/main/Installing%20useful%20tools/Sonarqube/docker-install.sh | bash
+curl https://raw.githubusercontent.com/denizturkmen/Docker-Full-Content-Notes/main/Installing%20useful%20tools/Sonarqube/1-%20Install/docker-install.sh | bash
 
 ```
 
@@ -14,7 +14,7 @@ Installing docker-compose on ubuntu with script
 ``` bash
 # Install
 sudo su -
-curl https://raw.githubusercontent.com/denizturkmen/Docker-Full-Content-Notes/main/Installing%20useful%20tools/Sonarqube/docker-compose-install.sh | bash
+curl https://raw.githubusercontent.com/denizturkmen/Docker-Full-Content-Notes/main/Installing%20useful%20tools/Sonarqube/1-%20Install/docker-compose-install.sh | bash
 
 ```
 
