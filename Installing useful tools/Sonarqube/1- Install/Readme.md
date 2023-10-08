@@ -69,7 +69,7 @@ sudo sysctl -p
 
 # list
 sudo sysctl -a | grep vm.max_map_count
-sudo sysctl -a | grep fs.file-max=131072
+sudo sysctl -a | grep fs.file-max
 
 # 2 way
 sudo sysctl -w vm.max_map_count=524288 >> /etc/sysctl.conf
