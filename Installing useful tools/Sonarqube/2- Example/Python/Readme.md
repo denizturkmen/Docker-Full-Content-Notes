@@ -11,7 +11,7 @@ sudo apt update
 sudo apt install python3-pip
 
 # Verify Pip3
-$ pip3 --version
+pip3 --version
 
 ```
 
