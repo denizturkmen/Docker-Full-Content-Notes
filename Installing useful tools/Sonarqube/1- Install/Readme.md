@@ -105,11 +105,14 @@ psql -U sonar -d sonarqubedb -p
 \l
 \dt
 
+```
+
+Integration to gitlab
+``` bash
 
 
 
 ```
-
 
 
 
